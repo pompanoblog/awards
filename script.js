@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 showNotification();
             }, timeUntilNotification);
 
-            alert('Notificação agendada para 5 de dezembro às 12:00 BRT! Mantenha esta aba aberta ou certifique-se de que seu navegador permite notificações em segundo plano.');
+            alert('Notificação agendada para 5 de dezembro às 12h00! Mantenha esta aba aberta ou certifique-se de que seu navegador permite notificações em segundo plano.');
         } else {
             alert('A data do evento já passou!');
         }
